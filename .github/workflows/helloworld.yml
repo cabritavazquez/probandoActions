@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Echo del mensage
         run: echo "Hola mundo"
+      - name: Segundo
+        run: ls -l
   # build:
 
   #   runs-on: ubuntu-latest
